@@ -1,6 +1,10 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const ProfileFolders = React.createClass({
+export default class ProfileFolders extends Component {
+  constructor (props){
+    super(props);
+  }
+
   render() {
     return (
       <div>
@@ -8,6 +12,4 @@ const ProfileFolders = React.createClass({
       </div>
     )
   }
-});
-
-export default ProfileFolders;
+}
