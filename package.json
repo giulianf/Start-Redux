@@ -15,11 +15,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/giulianf/ufiix.git"
+    "url": "https://github.com/giulianf/Start-Redux.git"
   },
   "author": "Julien Fumanti",
   "license": "MIT",
-  "homepage": "https://github.com/giulianf/ufiix",
+  "homepage": "https://github.com/giulianf/Start-Redux",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "dotenv": "^4.0.0",
