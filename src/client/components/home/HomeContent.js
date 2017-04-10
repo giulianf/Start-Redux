@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ImageHome from './ImageHome';
 import Features from './Features';
 import HowWorks from './HowWorks';
@@ -6,7 +6,11 @@ import MoreFeatures from './MoreFeatures';
 import DownloadApp from './DownloadApp';
 import Newsletter from './Newsletter';
 
-const HomeContent = React.createClass({
+export default class HomeContent extends Component {
+  constructor (props){
+    super(props);
+  }
+
   render() {
     return (
       <div>
@@ -17,7 +21,7 @@ const HomeContent = React.createClass({
         {/* How it works section */}
         <HowWorks />
         {/* More features section */}
-        <MoreFeatures/>
+          {/*<MoreFeatures/>*/}
         {/* Download application Android or apple section */}
         <DownloadApp/>
         {/* Newsletter section */}
@@ -26,6 +30,4 @@ const HomeContent = React.createClass({
       </div>
     )
   }
-});
-
-export default HomeContent;
+}
