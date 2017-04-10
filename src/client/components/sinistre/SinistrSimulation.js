@@ -1,13 +1,18 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { Grid, Row, Col, PageHeader } from 'react-bootstrap';
 
-const SinistrSimulation = React.createClass({
+export default class SinistrSimulation extends Component {
+  constructor (props){
+    super(props);
+  }
   render() {
     return (
+    <Grid className="content">
       <div>
-        Sinistre Simulation
+          Sinistre Simulations
       </div>
+    </Grid>
+
     )
   }
-});
-
-export default SinistrSimulation;
+}
