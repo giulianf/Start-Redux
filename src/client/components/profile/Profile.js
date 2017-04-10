@@ -1,6 +1,10 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const Profile = React.createClass({
+export default class Profile extends Component {
+  constructor (props){
+    super(props);
+  }
+
   render() {
     return (
       <div>
@@ -8,6 +12,4 @@ const Profile = React.createClass({
       </div>
     )
   }
-});
-
-export default Profile;
+}
