@@ -1,6 +1,10 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { Grid, Row, Col, PageHeader } from 'react-bootstrap';
 
-const Sinistr = React.createClass({
+export default class Sinistr extends Component {
+  constructor (props){
+    super(props);
+  }
   render() {
     return (
       <div>
@@ -8,6 +12,4 @@ const Sinistr = React.createClass({
       </div>
     )
   }
-});
-
-export default Sinistr;
+}
