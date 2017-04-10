@@ -1,10 +1,14 @@
 /**
  * Created by julienfumanti on 06/04/2017.
  */
-import React from 'react';
+import React, { Component } from 'react';
 import { Grid,  Row, Col } from 'react-bootstrap';
 
-const Login = React.createClass({
+export default class Login extends Component {
+  constructor (props){
+    super(props);
+  }
+
   render() {
     return (
       <Grid >
@@ -16,6 +20,4 @@ const Login = React.createClass({
       </Grid>
     )
   }
-});
-
-export default Login;
+}
